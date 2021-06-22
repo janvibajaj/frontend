@@ -9,6 +9,6 @@ app.use(express.static(staticPath));
 app.get("/",(req,res)=>{
     res.send("welcome");
 });
-app.listen(port, ()=>{
-    console.log("listning the port at 8000")
+app.listen(8000, ()=>{
+    console.log('listning the port at ${{port}}')
 });
